@@ -12,7 +12,8 @@
 #silktide-wrapper {
               --focus: 0 0 0 2px #ffffff, 0 0 0 4px #000000, 0 0 0 6px #ffffff;
               --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
-              --fontFamily: Helvetica Neue, Segoe UI, Arial, sans-serif;
+              --fontFamily: Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+              --fontWeight: 300;
               --primaryColor: #EF6F69;
               --backgroundColor: #ffffff;
               --textColor: #4b494b;
@@ -117,6 +118,7 @@
 -------------------------------- */
 #silktide-banner {
   font-family: var(--fontFamily);
+  font-weight: var(--fontWeight);
   color: var(--textColor);
   background-color: var(--backgroundColor);
   box-sizing: border-box;
@@ -260,6 +262,7 @@
   animation: silktide-slideInUp-center 350ms ease-out forwards;
   box-shadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
   font-family: var(--fontFamily);
+  font-weight: var(--fontWeight);
   color: var(--textColor);
   flex-direction: column;
   padding: 30px;
